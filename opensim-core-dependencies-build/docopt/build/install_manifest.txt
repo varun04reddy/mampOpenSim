@@ -1,0 +1,12 @@
+C:/opensim_dependencies_install/docopt/lib/docopt.lib
+C:/opensim_dependencies_install/docopt/lib/docopt.dll
+C:/opensim_dependencies_install/docopt/lib/docopt_s.lib
+C:/opensim_dependencies_install/docopt/include/docopt/docopt.h
+C:/opensim_dependencies_install/docopt/include/docopt/docopt_private.h
+C:/opensim_dependencies_install/docopt/include/docopt/docopt_util.h
+C:/opensim_dependencies_install/docopt/include/docopt/docopt_value.h
+C:/opensim_dependencies_install/docopt/lib/cmake/docopt/docopt-config.cmake
+C:/opensim_dependencies_install/docopt/lib/cmake/docopt/docopt-config-version.cmake
+C:/opensim_dependencies_install/docopt/lib/cmake/docopt/docopt-targets.cmake
+C:/opensim_dependencies_install/docopt/lib/cmake/docopt/docopt-targets-minsizerel.cmake
+C:/opensim_dependencies_install/docopt/lib/pkgconfig/docopt.pc

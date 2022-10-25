@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\x64\RelWithDebInfo\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\Platform\x64\RelWithDebInfo\PlatformFiles_subdir</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\x64\RelWithDebInfo\Code - Platform Files</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\RelWithDebInfo\SimTKcommon.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\RelWithDebInfo\SimTKmath.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\RelWithDebInfo\SimTKsimbody.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\RelWithDebInfo\simbody-visualizer.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\x64\RelWithDebInfo\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

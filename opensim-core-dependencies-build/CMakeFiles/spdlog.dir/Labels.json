@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/spdlog"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/4c30bc418b878a132f98fa5a6406c972/spdlog.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/af9a572393d710d203492eec50bfe816/spdlog-complete.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-build.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-configure.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-download.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-install.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-mkdir.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-patch.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog"
+		],
+		"name" : "spdlog"
+	}
+}

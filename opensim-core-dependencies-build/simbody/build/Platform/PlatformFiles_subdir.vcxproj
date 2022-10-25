@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AB629981-DDC5-3C8F-8569-6322065BD4B0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PlatformFiles_subdir</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libblas.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libgcc_s_sjlj-1.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libgfortran-3.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\liblapack.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libquadmath-0.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll -^&gt; C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\bd696bab4e22870585225f4d85a78cca\PlatformFiles_subdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\PlatformFiles_subdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\PlatformFiles_subdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\PlatformFiles_subdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libblas.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgcc_s_sjlj-1.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libgfortran-3.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.dll;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\liblapack.lib;C:\opensim-core-dependencies-build\simbody\build\$(Configuration)\libquadmath-0.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\PlatformFiles_subdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-source\dependencies\simbody\Platform\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/Platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/Platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/Platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/Platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\PlatformFiles_subdir">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\opensim-core-dependencies-build\simbody\build\ZERO_CHECK.vcxproj">
+      <Project>{6ED699E8-42E1-321B-91B0-28AADC5278E3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

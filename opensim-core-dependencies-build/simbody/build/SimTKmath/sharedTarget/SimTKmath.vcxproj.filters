@@ -1,0 +1,1173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\Eigen.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\Factor.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\FactorQTZ.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\FactorSVD.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\LapackConvert.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\LapackInterface.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_band.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_bandpre.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_bbdpre.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_dense.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_direct.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_ic.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_io.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_lapack.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_nls.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_proj.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_root.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_spbcgs.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_spgmr.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_spils.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\cpodes\cpodes_sptfqmr.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\nvec_ser\fnvector_serial.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\nvec_ser\nvector_serial.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_band.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_dense.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_direct.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_iterative.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_lapack.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_math.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_nvector.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_spbcgs.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_spgmr.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\src\sundials\sundials_sptfqmr.c">
+      <Filter>Source Files\CPodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\SimTKcpodes.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\nvector_SimTK.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\AbstractIntegratorRep.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodesIntegrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\ExplicitEulerIntegrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\Integrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKutta2Integrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKutta3Integrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKuttaFeldbergIntegrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKuttaMersonIntegrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\SemiExplicitEuler2Integrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\SemiExplicitEulerIntegrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\TimeStepper.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\VerletIntegrator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAdaptiveMuUpdate.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAlgBuilder.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAlgorithmRegOp.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAugRestoSystemSolver.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpBacktrackingLineSearch.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpBlas.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpCompoundMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpCompoundSymMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpCompoundVector.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDebug.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDefaultIterateInitializer.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDenseGenMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDenseSymMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDenseVector.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDiagMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpExactHessianUpdater.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpExpansionMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpFilter.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpFilterLSAcceptor.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpGenTMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpGradientScaling.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIdentityMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpInterfacesRegOp.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptAlg.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptApplication.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptCalculatedQuantities.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptData.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIteratesVector.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpJournalist.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLapack.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLapackSolverInterface.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLeastSquareMults.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLimMemQuasiNewtonUpdater.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLinearSolversRegOp.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLoqoMuOracle.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLowRankAugSystemSolver.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLowRankUpdateSymMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMonotoneMuUpdate.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMultiVectorMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpNLPScaling.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpObserver.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOptErrorConvCheck.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOptionsList.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOrigIpoptNLP.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOrigIterationOutput.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpPDFullSpaceSolver.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpPDPerturbationHandler.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpProbingMuOracle.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpQualityFunctionMuOracle.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRegOptions.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoFilterConvCheck.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoIpoptNLP.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoIterateInitializer.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoIterationOutput.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoMinC_1Nrm.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoRestoPhase.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpScaledMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSolveStatistics.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpStdAugSystemSolver.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpStdCInterface.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpStdInterfaceTNLP.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSumMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSumSymMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSymMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSymScaledMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSymTMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTNLPAdapter.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTSymLinearSolver.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTaggedObject.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTimingStatistics.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTripletHelper.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTripletToCSRConverter.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTripletToDenseConverter.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpUserScaling.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpUtils.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpVector.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpWarmStartIterateInitializer.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpZeroMatrix.cpp">
+      <Filter>Source Files\IpOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\c-cmaes\cmaes.c">
+      <Filter>Source Files\c-cmaes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\CFSQPOptimizer.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\CMAESOptimizer.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\InteriorPointOptimizer.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\LBFGSBOptimizer.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\LBFGSOptimizer.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\Optimizer.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\OptimizerRep.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\lbfgs.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\lbfgsb.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\BicubicSurface.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\CollisionDetectionAlgorithm.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\Contact.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_Brick.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_Cylinder.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_Ellipsoid.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_HalfSpace.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_SmoothHeightMap.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_Sphere.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_Torus.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometry_TriangleMesh.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactTracker.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\GCVSPLUtil.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\Geo.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\Geo_Box.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\Geo_Point.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\Geo_Sphere.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\Geo_Triangle.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\Geodesic.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\OBBTree.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\OrientedBoundingBox.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\gcvspl.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\src\About.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\src\Differentiator.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\src\MultibodyGraphMaker.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\EigenRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\FactorQTZRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\FactorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\FactorSVDRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\LATraits.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\LapackConvert.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\LapackInterface.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\LinearAlgebra\src\WorkSpace.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_band.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_bandpre.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_bbdpre.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_dense.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_direct.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_lapack.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_lapack_exports.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_spbcgs.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_spgmr.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_spils.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\cpodes\cpodes_sptfqmr.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\nvector\nvector_parallel.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\nvector\nvector_serial.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_band.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_config.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_dense.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_direct.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_fnvector.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_iterative.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_lapack.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_math.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_nvector.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_spbcgs.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_spgmr.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_sptfqmr.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\sundials\include\sundials\sundials_types.h">
+      <Filter>Header Files\CPodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodes\nvector_SimTK.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\AbstractIntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\CPodesIntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\ExplicitEulerIntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\IntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKutta2IntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKutta3IntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKuttaFeldbergIntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\RungeKuttaMersonIntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\SemiExplicitEuler2IntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\SemiExplicitEulerIntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\TimeStepperRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\src\VerletIntegratorRep.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAdaptiveMuUpdate.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAlgBuilder.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAlgStrategy.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAlgTypes.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAlgorithmRegOp.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAugRestoSystemSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpAugSystemSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpBacktrackingLSAcceptor.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpBacktrackingLineSearch.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpBlas.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpCachedResults.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpCompoundMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpCompoundSymMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpCompoundVector.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpConvCheck.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDebug.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDefaultIterateInitializer.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDenseGenMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDenseSymMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDenseVector.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpDiagMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpEqMultCalculator.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpExactHessianUpdater.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpException.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpExpansionMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpFilter.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpFilterLSAcceptor.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpGenTMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpGradientScaling.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpHessianUpdater.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIdentityMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpInterfacesRegOp.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptAlg.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptApplication.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptCalculatedQuantities.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptData.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIpoptNLP.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIterateInitializer.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIteratesVector.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpIterationOutput.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpJournalist.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLapack.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLapackSolverInterface.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLeastSquareMults.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLimMemQuasiNewtonUpdater.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLineSearch.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLinearSolversRegOp.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLoqoMuOracle.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLowRankAugSystemSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpLowRankUpdateSymMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMonotoneMuUpdate.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMuOracle.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMuUpdate.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpMultiVectorMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpNLP.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpNLPScaling.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpObserver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOptErrorConvCheck.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOptionsList.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOrigIpoptNLP.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpOrigIterationOutput.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpPDFullSpaceSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpPDPerturbationHandler.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpPDSystemSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpProbingMuOracle.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpQualityFunctionMuOracle.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpReferenced.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRegOptions.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoFilterConvCheck.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoIpoptNLP.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoIterateInitializer.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoIterationOutput.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoMinC_1Nrm.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoPhase.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpRestoRestoPhase.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpReturnCodes.h">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpReturnCodes.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpReturnCodes_inc.h">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpScaledMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSmartPtr.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSolveStatistics.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSparseSymLinearSolverInterface.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpStdAugSystemSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpStdCInterface.h">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpStdInterfaceTNLP.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSumMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSumSymMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSymLinearSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSymMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSymScaledMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpSymTMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTNLP.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTNLPAdapter.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTSymLinearSolver.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTSymScalingMethod.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTaggedObject.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTimedTask.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTimingStatistics.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTripletHelper.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTripletToCSRConverter.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTripletToDenseConverter.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpTypes.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpUserScaling.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpUtils.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpVector.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpWarmStartIterateInitializer.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpZeroMatrix.hpp">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\IpoptConfig.h">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\configall_system.h">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\IpOpt\configall_system_msc.h">
+      <Filter>Header Files\IpOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\c-cmaes\cmaes.h">
+      <Filter>Header Files\c-cmaes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\c-cmaes\cmaes_interface.h">
+      <Filter>Header Files\c-cmaes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\CFSQPOptimizer.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\CMAESOptimizer.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\InteriorPointOptimizer.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\LBFGSBOptimizer.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Optimizers\src\LBFGSOptimizer.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\BicubicSurface_Guts.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactGeometryImpl.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\ContactImpl.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\src\GeodesicEquations.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\src\Simmath_f2c.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\include\SimTKmath.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\include\simmath\Differentiator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\include\simmath\LinearAlgebra.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\include\simmath\MultibodyGraphMaker.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\include\simmath\Optimizer.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\include\simmath\internal\OptimizerRep.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\include\simmath\internal\common.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\CPodesIntegrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\ExplicitEulerIntegrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\Integrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\RungeKutta2Integrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\RungeKutta3Integrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\RungeKuttaFeldbergIntegrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\RungeKuttaMersonIntegrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\SemiExplicitEuler2Integrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\SemiExplicitEulerIntegrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\TimeStepper.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\VerletIntegrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Integrators\include\simmath\internal\SimTKcpodes.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\BicubicSurface.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\CollisionDetectionAlgorithm.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Contact.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\ContactGeometry.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\ContactTracker.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\GCVSPLUtil.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_BicubicBezierPatch.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_BicubicHermitePatch.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_Box.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_CubicBezierCurve.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_CubicHermiteCurve.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_LineSeg.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_Point.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_Sphere.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geo_Triangle.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Geodesic.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\GeodesicIntegrator.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\OBBTree.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\OrientedBoundingBox.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\ParticleConSurfaceSystem.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\Spline.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\Geometry\include\simmath\internal\SplineFitter.h">
+      <Filter>Header Files\Api</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-source\dependencies\simbody\SimTKmath\sharedTarget\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{273DE77E-98D9-3D6B-807D-7BCAFC188497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Api">
+      <UniqueIdentifier>{17DAFF57-8FCD-336B-A1CA-2BB652A78512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPodes">
+      <UniqueIdentifier>{5DAADEF1-4009-3D9B-AF62-4BBE7F7B468E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IpOpt">
+      <UniqueIdentifier>{608CE6F4-A64C-3A97-AED1-4070741FA790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Others">
+      <UniqueIdentifier>{9783FA71-5225-3868-B1F9-E99B5C2D2EB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\c-cmaes">
+      <UniqueIdentifier>{3A264D1E-064B-34EB-8334-B97BAD2D504A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{49D76088-E69B-3686-882C-11D87FEC0CA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPodes">
+      <UniqueIdentifier>{A929C037-6832-3C1F-BC86-8233F603145E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IpOpt">
+      <UniqueIdentifier>{B4835852-8AB2-308C-B013-4CC2F9923B49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Others">
+      <UniqueIdentifier>{1DD4D2D2-811C-3BE3-AADE-33D13F9817B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\c-cmaes">
+      <UniqueIdentifier>{9DFCB649-7A46-3F24-A113-DEEA57AF4B97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

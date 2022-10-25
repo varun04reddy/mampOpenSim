@@ -1,0 +1,10 @@
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\SIMBODY\BUILD\CMAKEFILES\3940BAB569926239BFE2AF973E6BDD78\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/opensim-core-dependencies-build/simbody/build/Simbody.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

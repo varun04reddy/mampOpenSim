@@ -1,0 +1,68 @@
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\SIMBODY\BUILD\CMAKEFILES\37EFD6967CE2FB2427D1617C0C1E08F8\LIBBLAS.DLL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.dll C:\opensim-core-dependencies-build\simbody\build\Debug\libblas.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\SIMBODY\BUILD\CMAKEFILES\37EFD6967CE2FB2427D1617C0C1E08F8\LIBGCC_S_SJLJ-1.DLL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll C:\opensim-core-dependencies-build\simbody\build\Debug\libgcc_s_sjlj-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\SIMBODY\BUILD\CMAKEFILES\37EFD6967CE2FB2427D1617C0C1E08F8\LIBGFORTRAN-3.DLL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libgfortran-3.dll C:\opensim-core-dependencies-build\simbody\build\Debug\libgfortran-3.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\SIMBODY\BUILD\CMAKEFILES\37EFD6967CE2FB2427D1617C0C1E08F8\LIBLAPACK.DLL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.dll C:\opensim-core-dependencies-build\simbody\build\Debug\liblapack.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\SIMBODY\BUILD\CMAKEFILES\37EFD6967CE2FB2427D1617C0C1E08F8\LIBQUADMATH-0.DLL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libquadmath-0.dll C:\opensim-core-dependencies-build\simbody\build\Debug\libquadmath-0.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\SIMBODY\BUILD\CMAKEFILES\BD696BAB4E22870585225F4D85A78CCA\PLATFORMFILES_SUBDIR.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-SOURCE\DEPENDENCIES\SIMBODY\PLATFORM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/Platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

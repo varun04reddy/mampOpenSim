@@ -1,0 +1,134 @@
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\D0953E94E7AF13E831EB12BF6BF86E90\SPDLOG-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/opensim-core-dependencies-build/spdlog/tmp/spdlog-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/spdlog/stamp/Release/spdlog-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\D0953E94E7AF13E831EB12BF6BF86E90\SPDLOG-DOWNLOAD.RULE
+setlocal
+cd C:\opensim-core-source\dependencies
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/opensim-core-dependencies-build/spdlog/tmp/spdlog-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/spdlog/stamp/Release/spdlog-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\D0953E94E7AF13E831EB12BF6BF86E90\SPDLOG-UPDATE.RULE
+setlocal
+cd C:\opensim-core-source\dependencies\spdlog
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/opensim-core-dependencies-build/spdlog/tmp/spdlog-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\D0953E94E7AF13E831EB12BF6BF86E90\SPDLOG-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/spdlog/stamp/Release/spdlog-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\D0953E94E7AF13E831EB12BF6BF86E90\SPDLOG-CONFIGURE.RULE
+setlocal
+cd C:\opensim-core-dependencies-build\spdlog\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" "-GVisual Studio 17 2022" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" -CC:/opensim-core-dependencies-build/spdlog/tmp/spdlog-cache-Release.cmake C:/opensim-core-source/dependencies/spdlog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/spdlog/stamp/Release/spdlog-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\D0953E94E7AF13E831EB12BF6BF86E90\SPDLOG-BUILD.RULE
+setlocal
+cd C:\opensim-core-dependencies-build\spdlog\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/spdlog/stamp/Release/spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\D0953E94E7AF13E831EB12BF6BF86E90\SPDLOG-INSTALL.RULE
+setlocal
+cd C:\opensim-core-dependencies-build\spdlog\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/spdlog/stamp/Release/spdlog-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\AF9A572393D710D203492EEC50BFE816\SPDLOG-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/opensim-core-dependencies-build/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/CMakeFiles/Release/spdlog-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/spdlog/stamp/Release/spdlog-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\4C30BC418B878A132F98FA5A6406C972\SPDLOG.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-SOURCE\DEPENDENCIES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies -BC:/opensim-core-dependencies-build --check-stamp-file C:/opensim-core-dependencies-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

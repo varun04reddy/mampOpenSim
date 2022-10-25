@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.24/Templates/CPackConfig.cmake.in
+C:/opensim-core-dependencies-build/spdlog/build/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake
+C:/opensim-core-dependencies-build/spdlog/build/CMakeFiles/3.24.2/CMakeRCCompiler.cmake
+C:/opensim-core-dependencies-build/spdlog/build/CMakeFiles/3.24.2/CMakeSystem.cmake
+C:/opensim-core-source/dependencies/spdlog/CMakeLists.txt
+C:/opensim-core-source/dependencies/spdlog/cmake/ide.cmake
+C:/opensim-core-source/dependencies/spdlog/cmake/spdlog.pc.in
+C:/opensim-core-source/dependencies/spdlog/cmake/spdlogCPack.cmake
+C:/opensim-core-source/dependencies/spdlog/cmake/spdlogConfig.cmake.in
+C:/opensim-core-source/dependencies/spdlog/cmake/utils.cmake

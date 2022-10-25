@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\spdlog\build\x64\MinSizeRel\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\spdlog\build\x64\MinSizeRel\ALL_BUILD</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\spdlog\build\x64\MinSizeRel\INSTALL</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

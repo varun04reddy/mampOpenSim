@@ -1,0 +1,10 @@
+^C:\OPENSIM-CORE-SOURCE\DEPENDENCIES\SPDLOG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/spdlog -BC:/opensim-core-dependencies-build/spdlog/build --check-stamp-file C:/opensim-core-dependencies-build/spdlog/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

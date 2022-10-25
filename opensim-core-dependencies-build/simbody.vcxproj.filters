@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\86a2f7c1d9a8708e682d076cd6b388fe\simbody-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\86a2f7c1d9a8708e682d076cd6b388fe\simbody-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\86a2f7c1d9a8708e682d076cd6b388fe\simbody-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\86a2f7c1d9a8708e682d076cd6b388fe\simbody-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\86a2f7c1d9a8708e682d076cd6b388fe\simbody-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\86a2f7c1d9a8708e682d076cd6b388fe\simbody-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\86a2f7c1d9a8708e682d076cd6b388fe\simbody-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\af9a572393d710d203492eec50bfe816\simbody-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\CMakeFiles\4c30bc418b878a132f98fa5a6406c972\simbody.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-source\dependencies\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\opensim-core-dependencies-build\CMakeFiles\simbody" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{72163E8C-EC1A-33FA-8B16-6858DF3C1C80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+C:/opensim-core-dependencies-build/CMakeFiles/spdlog
+C:/opensim-core-dependencies-build/CMakeFiles/4c30bc418b878a132f98fa5a6406c972/spdlog.rule
+C:/opensim-core-dependencies-build/CMakeFiles/af9a572393d710d203492eec50bfe816/spdlog-complete.rule
+C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-build.rule
+C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-configure.rule
+C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-download.rule
+C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-install.rule
+C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-mkdir.rule
+C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-patch.rule
+C:/opensim-core-dependencies-build/CMakeFiles/d0953e94e7af13e831eb12bf6bf86e90/spdlog-update.rule

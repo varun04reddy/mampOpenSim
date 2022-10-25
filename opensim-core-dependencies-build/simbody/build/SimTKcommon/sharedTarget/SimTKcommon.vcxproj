@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8BBD595B-9913-3F24-86FA-C062CF4269CD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Code - SimTKcommon</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SimTKcommon.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SimTKcommon_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SimTKcommon.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SimTKcommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SimTKcommon.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SimTKcommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SimTKcommon.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SimTKcommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;SimTK_SIMBODY_COPYRIGHT_YEARS="2005-20";SimTK_SIMBODY_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION="";SimTK_SimTKCOMMON_COPYRIGHT_YEARS="2005-10";SimTK_SimTKCOMMON_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR="Debug";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SimTK_SIMBODY_COPYRIGHT_YEARS=\"2005-20\";SimTK_SIMBODY_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION=\"\";SimTK_SimTKCOMMON_COPYRIGHT_YEARS=\"2005-10\";SimTK_SimTKCOMMON_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR=\"Debug\";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.lib;C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opensim-core-dependencies-build/simbody/build/Debug/SimTKcommon_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opensim-core-dependencies-build/simbody/build/Debug/SimTKcommon_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SimTK_SIMBODY_COPYRIGHT_YEARS="2005-20";SimTK_SIMBODY_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION="";SimTK_SimTKCOMMON_COPYRIGHT_YEARS="2005-10";SimTK_SimTKCOMMON_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR="Release";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SimTK_SIMBODY_COPYRIGHT_YEARS=\"2005-20\";SimTK_SIMBODY_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION=\"\";SimTK_SimTKCOMMON_COPYRIGHT_YEARS=\"2005-10\";SimTK_SimTKCOMMON_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR=\"Release\";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.lib;C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opensim-core-dependencies-build/simbody/build/Release/SimTKcommon.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opensim-core-dependencies-build/simbody/build/Release/SimTKcommon.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SimTK_SIMBODY_COPYRIGHT_YEARS="2005-20";SimTK_SIMBODY_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION="";SimTK_SimTKCOMMON_COPYRIGHT_YEARS="2005-10";SimTK_SimTKCOMMON_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR="MinSizeRel";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SimTK_SIMBODY_COPYRIGHT_YEARS=\"2005-20\";SimTK_SIMBODY_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION=\"\";SimTK_SimTKCOMMON_COPYRIGHT_YEARS=\"2005-10\";SimTK_SimTKCOMMON_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.lib;C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opensim-core-dependencies-build/simbody/build/MinSizeRel/SimTKcommon.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opensim-core-dependencies-build/simbody/build/MinSizeRel/SimTKcommon.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SimTK_SIMBODY_COPYRIGHT_YEARS="2005-20";SimTK_SIMBODY_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION="";SimTK_SimTKCOMMON_COPYRIGHT_YEARS="2005-10";SimTK_SimTKCOMMON_AUTHORS="Michael.Sherman_Peter.Eastman";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR="RelWithDebInfo";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SimTK_SIMBODY_COPYRIGHT_YEARS=\"2005-20\";SimTK_SIMBODY_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_LIBRARY_NAME=SimTKcommon;SimTK_SimTKCOMMON_MAJOR_VERSION=3;SimTK_SimTKCOMMON_MINOR_VERSION=8;SimTK_SimTKCOMMON_PATCH_VERSION=0;SimTK_SimTKCOMMON_SVN_REVISION=\"\";SimTK_SimTKCOMMON_COPYRIGHT_YEARS=\"2005-10\";SimTK_SimTKCOMMON_AUTHORS=\"Michael.Sherman_Peter.Eastman\";SimTK_SimTKCOMMON_BUILDING_SHARED_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";SimTKcommon_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opensim-core-source\dependencies\simbody\Platform\Windows\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\.\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include;C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\liblapack.lib;C:\opensim-core-source\dependencies\simbody\Platform\Windows\lib_x64\libblas.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opensim-core-dependencies-build/simbody/build/RelWithDebInfo/SimTKcommon.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opensim-core-dependencies-build/simbody/build/RelWithDebInfo/SimTKcommon.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\sharedTarget\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/SimTKcommon/sharedTarget/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/SimTKcommon/sharedTarget/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opensim-core-dependencies-build\simbody\build\SimTKcommon\sharedTarget\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/SimTKcommon/sharedTarget/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/SimTKcommon/sharedTarget/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opensim-core-dependencies-build\simbody\build\SimTKcommon\sharedTarget\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/SimTKcommon/sharedTarget/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/SimTKcommon/sharedTarget/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opensim-core-dependencies-build\simbody\build\SimTKcommon\sharedTarget\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/opensim-core-source/dependencies/simbody/SimTKcommon/sharedTarget/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies/simbody -BC:/opensim-core-dependencies-build/simbody/build --check-stamp-file C:/opensim-core-dependencies-build/simbody/build/SimTKcommon/sharedTarget/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opensim-core-dependencies-build\simbody\build\SimTKcommon\sharedTarget\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\About.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\NiceTypeName.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Parallel2DExecutor.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelExecutor.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelWorkQueue.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Pathname.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Plugin.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\PrivateInstantiations.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\String.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Timing.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Xml.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\tinyxml.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\tinyxmlparser.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\src\Scalar.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\src\SmallMatrix.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\CoordinateAxis.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\MassProperties.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\Quaternion.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\Rotation.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\Transform.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\UnitVec.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\ElementFilter.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixCharacteristics.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelper.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\DecorativeGeometry.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\PolygonalMesh.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Event.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\EventHandler.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\EventReporter.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Measure.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\State.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Study.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Subsystem.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\System.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\Random.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\PolynomialRootFinder.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\cpoly.cpp" />
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\rpoly.cpp" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Parallel2DExecutorImpl.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelExecutorImpl.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelWorkQueueImpl.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\tinyxml.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\ElementFilter.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep_Full.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep_Tri.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep_Vector.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\DecorativeGeometryRep.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\PolygonalMeshImpl.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\SystemGutsRep.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-alti.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params11213.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params1279.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params132049.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params19937.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params216091.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params2281.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params4253.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params44497.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params607.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params86243.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-sse2.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\cpoly.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\rpoly.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKlapack.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\Constants.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\Simmatrix.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\TemplatizedLapack.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\Testing.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\basics.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Array.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\CloneOnWritePtr.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ClonePtr.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Exception.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ExceptionMacros.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Fortran.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Function.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\IteratorRange.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Parallel2DExecutor.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ParallelExecutor.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ParallelWorkQueue.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Pathname.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Plugin.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\PrivateImplementation.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\PrivateImplementation_Defs.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ReferencePtr.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ReinitOnCopy.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ResetOnCopy.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Serialize.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\StableArray.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\String.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Timing.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Value.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\VectorMath.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Xml.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\common.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\Scalar.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\CompositeNumericalTypes.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\NTraits.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\conjugate.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\negator.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\SmallMatrix.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\Mat.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\ResultType.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\Row.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\SmallDefsThatNeedBig.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\SmallMatrixMixed.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\SymMat.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\Vec.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\Mechanics.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\Orientation.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\CoordinateAxis.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\MassProperties.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\Quaternion.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\Rotation.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\SpatialAlgebra.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\Transform.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\UnitVec.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\BigMatrix.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixBase.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixCharacteristics.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixHelper.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixView_.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\Matrix_.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\RowVectorBase.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\RowVectorView_.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\RowVector_.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\VectorBase.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\VectorIterator.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\VectorView_.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\Vector_.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include\SimTKcommon\internal\DecorationGenerator.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include\SimTKcommon\internal\DecorativeGeometry.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include\SimTKcommon\internal\PolygonalMesh.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Event.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\EventHandler.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\EventReporter.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Measure.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\MeasureImplementation.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Stage.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\State.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\StateImpl.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Study.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\StudyGuts.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Subsystem.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\SubsystemGuts.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\System.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\SystemGuts.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include\SimTKcommon\internal\Random.h" />
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include\SimTKcommon\internal\PolynomialRootFinder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\opensim-core-dependencies-build\simbody\build\ZERO_CHECK.vcxproj">
+      <Project>{6ED699E8-42E1-321B-91B0-28AADC5278E3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opensim-core-dependencies-build\simbody\build\PlatformFiles.vcxproj">
+      <Project>{71C79039-BA88-3744-8B19-7C0890794784}</Project>
+      <Name>PlatformFiles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

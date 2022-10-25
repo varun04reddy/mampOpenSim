@@ -1,0 +1,13 @@
+# Target labels
+ docopt
+# Source files and their labels
+C:/opensim-core-dependencies-build/CMakeFiles/docopt
+C:/opensim-core-dependencies-build/CMakeFiles/4c30bc418b878a132f98fa5a6406c972/docopt.rule
+C:/opensim-core-dependencies-build/CMakeFiles/af9a572393d710d203492eec50bfe816/docopt-complete.rule
+C:/opensim-core-dependencies-build/CMakeFiles/06f14f5107fb073c5ca9631123c30bfb/docopt-build.rule
+C:/opensim-core-dependencies-build/CMakeFiles/06f14f5107fb073c5ca9631123c30bfb/docopt-configure.rule
+C:/opensim-core-dependencies-build/CMakeFiles/06f14f5107fb073c5ca9631123c30bfb/docopt-download.rule
+C:/opensim-core-dependencies-build/CMakeFiles/06f14f5107fb073c5ca9631123c30bfb/docopt-install.rule
+C:/opensim-core-dependencies-build/CMakeFiles/06f14f5107fb073c5ca9631123c30bfb/docopt-mkdir.rule
+C:/opensim-core-dependencies-build/CMakeFiles/06f14f5107fb073c5ca9631123c30bfb/docopt-patch.rule
+C:/opensim-core-dependencies-build/CMakeFiles/06f14f5107fb073c5ca9631123c30bfb/docopt-update.rule

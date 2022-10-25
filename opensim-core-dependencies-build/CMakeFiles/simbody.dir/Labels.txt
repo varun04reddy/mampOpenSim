@@ -1,0 +1,13 @@
+# Target labels
+ simbody
+# Source files and their labels
+C:/opensim-core-dependencies-build/CMakeFiles/simbody
+C:/opensim-core-dependencies-build/CMakeFiles/4c30bc418b878a132f98fa5a6406c972/simbody.rule
+C:/opensim-core-dependencies-build/CMakeFiles/af9a572393d710d203492eec50bfe816/simbody-complete.rule
+C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-build.rule
+C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-configure.rule
+C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-download.rule
+C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-install.rule
+C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-mkdir.rule
+C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-patch.rule
+C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-update.rule

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\7625635fb049d8ed1852dfdb54dd1b25\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4ECB740F-8AA5-38A2-8771-27B090E3BFE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

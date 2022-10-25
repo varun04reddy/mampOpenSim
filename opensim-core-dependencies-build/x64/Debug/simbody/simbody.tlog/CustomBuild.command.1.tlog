@@ -1,0 +1,134 @@
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\86A2F7C1D9A8708E682D076CD6B388FE\SIMBODY-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/opensim-core-dependencies-build/simbody/tmp/simbody-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/simbody/stamp/Debug/simbody-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\86A2F7C1D9A8708E682D076CD6B388FE\SIMBODY-DOWNLOAD.RULE
+setlocal
+cd C:\opensim-core-source\dependencies
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/opensim-core-dependencies-build/simbody/tmp/simbody-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/simbody/stamp/Debug/simbody-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\86A2F7C1D9A8708E682D076CD6B388FE\SIMBODY-UPDATE.RULE
+setlocal
+cd C:\opensim-core-source\dependencies\simbody
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/opensim-core-dependencies-build/simbody/tmp/simbody-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\86A2F7C1D9A8708E682D076CD6B388FE\SIMBODY-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/simbody/stamp/Debug/simbody-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\86A2F7C1D9A8708E682D076CD6B388FE\SIMBODY-CONFIGURE.RULE
+setlocal
+cd C:\opensim-core-dependencies-build\simbody\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" "-GVisual Studio 17 2022" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" -CC:/opensim-core-dependencies-build/simbody/tmp/simbody-cache-Debug.cmake C:/opensim-core-source/dependencies/simbody
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/simbody/stamp/Debug/simbody-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\86A2F7C1D9A8708E682D076CD6B388FE\SIMBODY-BUILD.RULE
+setlocal
+cd C:\opensim-core-dependencies-build\simbody\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/simbody/stamp/Debug/simbody-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\86A2F7C1D9A8708E682D076CD6B388FE\SIMBODY-INSTALL.RULE
+setlocal
+cd C:\opensim-core-dependencies-build\simbody\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/simbody/stamp/Debug/simbody-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\AF9A572393D710D203492EEC50BFE816\SIMBODY-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/opensim-core-dependencies-build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/CMakeFiles/Debug/simbody-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opensim-core-dependencies-build/simbody/stamp/Debug/simbody-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-DEPENDENCIES-BUILD\CMAKEFILES\4C30BC418B878A132F98FA5A6406C972\SIMBODY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENSIM-CORE-SOURCE\DEPENDENCIES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opensim-core-source/dependencies -BC:/opensim-core-dependencies-build --check-stamp-file C:/opensim-core-dependencies-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

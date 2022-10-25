@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\x64\MinSizeRel\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\Platform\x64\MinSizeRel\PlatformFiles_subdir</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\x64\MinSizeRel\Code - Platform Files</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\MinSizeRel\SimTKcommon.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\MinSizeRel\SimTKmath.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\MinSizeRel\SimTKsimbody.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\opensim-core-dependencies-build\simbody\build\MinSizeRel\simbody-visualizer.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

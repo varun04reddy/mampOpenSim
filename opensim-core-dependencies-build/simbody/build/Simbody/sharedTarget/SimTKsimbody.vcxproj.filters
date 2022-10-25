@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Assembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\AssemblyCondition_Markers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\AssemblyCondition_OrientationSensors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Body.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\CablePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\CableSpring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\CableTrackerSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\CompliantContactSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ConditionalConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_LineOnLineContact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_PointOnPlaneContact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_Rod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_SphereOnPlaneContact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_SphereOnSphereContact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ContactTrackerSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\DecorationSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ElasticFoundationForce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ExponentialSpringForce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ExponentialSpringParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Force.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ForceSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Force_Gravity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Force_Instantiations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Force_LinearBushing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Force_Thermostat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\GeneralContactSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\GeneralForceSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\HuntCrossleyContact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\HuntCrossleyForce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ImpulseSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\LocalEnergyMinimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Matter_Instantiations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\MobilizedBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Motion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\MultibodySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\OBSOLETE_LengthConstraints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ObservedPointFitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\PGSImpulseSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\PLUSImpulseSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Derived.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNode_LoneParticle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNode_Weld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SemiExplicitEulerTimeStepper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SimbodyMatterSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SimbodyMatterSubsystemRep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SimbodyMatterSubtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SmoothSphereHalfSpaceForce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\TextDataEventReporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\src\Visualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\src\VisualizerGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\src\VisualizerProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\src\Visualizer_InputListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\src\Visualizer_Reporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\BodyRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\CablePath_Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\CableTrackerSubsystem_Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ConstraintImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_LineOnLineContactImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_PointOnPlaneContactImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_RodImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_SphereOnPlaneContactImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\Constraint_SphereOnSphereContactImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\DecorationSubsystemRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ElasticFoundationForceImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\ForceImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\HuntCrossleyForceImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\MobilizedBodyImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\MotionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\MultibodySystemRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\OBSOLETE_LengthConstraints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\OBSOLETE_NewtonRaphson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Bushing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Ellipsoid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Free.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_FreeLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Gimbal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_LineOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Pin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Planar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_PolarCoords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Screw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_SphericalCoords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Translation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\RigidBodyNodeSpec_Universal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SimbodyMatterSubsystemRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SimbodyTreeState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\src\SmoothSphereHalfSpaceForceImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\src\VisualizerGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\src\VisualizerProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\SimTKsimbody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\SimTKsimbody_aux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\Simbody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Assembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\AssemblyCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\AssemblyCondition_Markers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\AssemblyCondition_OrientationSensors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\AssemblyCondition_QValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\CablePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\CableSpring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\CableTrackerSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\CompliantContactSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ConditionalConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_BuiltIns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_LineOnLineContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_PointInPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_PointOnPlaneContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_Rod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_SphereOnPlaneContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_SphereOnSphereContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Constraint_Weld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ContactSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ContactTrackerSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\DecorationSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ElasticFoundationForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ExponentialSpringForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ExponentialSpringParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ForceSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ForceSubsystemGuts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_BuiltIns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_Custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_DiscreteForces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_Gravity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_LinearBushing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_MobilityConstantForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_MobilityDiscreteForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_MobilityLinearDamper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_MobilityLinearSpring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_MobilityLinearStop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Force_Thermostat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\GeneralContactSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\GeneralForceSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\HuntCrossleyContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\HuntCrossleyForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ImpulseSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\LocalEnergyMinimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_BendStretch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_BuiltIns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Bushing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Ellipsoid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Free.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_FreeLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_FunctionBased.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Gimbal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Ground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_LineOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Pin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Planar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Screw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_SphericalCoords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Translation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Universal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MobilizedBody_Weld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\Motion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\MultibodySystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\ObservedPointFitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\PGSImpulseSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\PLUSImpulseSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\SemiExplicitEulerTimeStepper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\SimbodyMatterSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\SimbodyMatterSubtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\SmoothSphereHalfSpaceForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\TextDataEventReporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\include\simbody\internal\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\include\simbody\internal\Visualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\include\simbody\internal\Visualizer_InputListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\Simbody\Visualizer\include\simbody\internal\Visualizer_Reporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-source\dependencies\simbody\Simbody\sharedTarget\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{273DE77E-98D9-3D6B-807D-7BCAFC188497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{49D76088-E69B-3686-882C-11D87FEC0CA6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/simbody"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/4c30bc418b878a132f98fa5a6406c972/simbody.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/af9a572393d710d203492eec50bfe816/simbody-complete.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-build.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-configure.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-download.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-install.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-mkdir.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-patch.rule"
+		},
+		{
+			"file" : "C:/opensim-core-dependencies-build/CMakeFiles/86a2f7c1d9a8708e682d076cd6b388fe/simbody-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"simbody"
+		],
+		"name" : "simbody"
+	}
+}

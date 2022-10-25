@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\NiceTypeName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Parallel2DExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelWorkQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Pathname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\PrivateInstantiations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Timing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Xml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\src\Scalar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\src\SmallMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\CoordinateAxis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\MassProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\Rotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\src\UnitVec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\ElementFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixCharacteristics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\DecorativeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\PolygonalMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\EventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\EventReporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Measure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Study.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\Subsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\PolynomialRootFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\cpoly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\rpoly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\Parallel2DExecutorImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelExecutorImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\ParallelWorkQueueImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\src\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\ElementFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep_Full.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep_Tri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\src\MatrixHelperRep_Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\DecorativeGeometryRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\src\PolygonalMeshImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\src\SystemGutsRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-alti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params11213.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params1279.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params132049.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params19937.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params216091.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params2281.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params4253.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params44497.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params607.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-params86243.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT-sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\src\SFMT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\cpoly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\src\rpoly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKlapack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\Simmatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\TemplatizedLapack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\Testing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\basics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\CloneOnWritePtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ClonePtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ExceptionMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Fortran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\IteratorRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Parallel2DExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ParallelExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ParallelWorkQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Pathname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\PrivateImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\PrivateImplementation_Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ReferencePtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ReinitOnCopy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\ResetOnCopy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Serialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\StableArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Timing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\VectorMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\Xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\include\SimTKcommon\internal\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\Scalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\CompositeNumericalTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\NTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\conjugate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Scalar\include\SimTKcommon\internal\negator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\SmallMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\Mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\ResultType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\Row.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\SmallDefsThatNeedBig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\SmallMatrixMixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\SymMat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\SmallMatrix\include\SimTKcommon\internal\Vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\Mechanics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\Orientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\CoordinateAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\MassProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\Rotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\SpatialAlgebra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Mechanics\include\SimTKcommon\internal\UnitVec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\BigMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixCharacteristics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\MatrixView_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\Matrix_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\RowVectorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\RowVectorView_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\RowVector_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\VectorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\VectorIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\VectorView_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\BigMatrix\include\SimTKcommon\internal\Vector_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include\SimTKcommon\internal\DecorationGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include\SimTKcommon\internal\DecorativeGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Geometry\include\SimTKcommon\internal\PolygonalMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\EventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\EventReporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Measure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\MeasureImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\StateImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Study.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\StudyGuts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\Subsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\SubsystemGuts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Simulation\include\SimTKcommon\internal\SystemGuts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Random\include\SimTKcommon\internal\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\Polynomial\include\SimTKcommon\internal\PolynomialRootFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-source\dependencies\simbody\SimTKcommon\sharedTarget\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{273DE77E-98D9-3D6B-807D-7BCAFC188497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{49D76088-E69B-3686-882C-11D87FEC0CA6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

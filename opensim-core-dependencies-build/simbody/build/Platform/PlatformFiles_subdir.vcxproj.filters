@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libblas.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libgcc_s_sjlj-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libgfortran-3.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\liblapack.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\37efd6967ce2fb2427d1617c0c1e08f8\libquadmath-0.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-dependencies-build\simbody\build\CMakeFiles\bd696bab4e22870585225f4d85a78cca\PlatformFiles_subdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opensim-core-source\dependencies\simbody\Platform\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\opensim-core-dependencies-build\simbody\build\Platform\CMakeFiles\PlatformFiles_subdir" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4ECB740F-8AA5-38A2-8771-27B090E3BFE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

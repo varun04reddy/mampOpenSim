@@ -1,0 +1,5 @@
+C:/opensim-core-dependencies-build/CMakeFiles/simbody.dir
+C:/opensim-core-dependencies-build/CMakeFiles/docopt.dir
+C:/opensim-core-dependencies-build/CMakeFiles/spdlog.dir
+C:/opensim-core-dependencies-build/CMakeFiles/ALL_BUILD.dir
+C:/opensim-core-dependencies-build/CMakeFiles/ZERO_CHECK.dir
